@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
-header{
-
+header div.first_container{
+    background-color: #905045;
 }
 
-header img{ 
-    height: 9vh;
-    width: 4vw;
+header div.nav_bar{
+    background-color: #A06346;
+}
+
+body{
+    background-color: #D79E66;
+}
+
+div p{
+    background-color:  #E4BB7E;
 }
