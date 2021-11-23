@@ -14,56 +14,59 @@
 <body>
     <header>
         <div class="first_container d-flex p-2 bd-highlight">
-            <img src="../asset/img/Logo_Informatique_femme-removebg-preview.png" class="img-fluid rounded mx-auto d-block" alt="">
+            <img src="../asset/img/Logo_Informatique_femme-removebg-preview.png"
+                class="img-fluid rounded mx-auto d-block" alt="">
             <a href="#"><img src="../asset/img/maj.svg" class="img-fluid" alt=""></a>
         </div>
         <div class="nav_bar">
             <ul class="nav nav-pills nav-fill">
                 <li class="nav-item">
-                    <a class="nav-link link-light" href="./History.html" >Elles ont marqué l'histoire</a>
+                    <a class="nav-link link-light" href="./History.html">Elles ont marqué l'histoire</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link link-light" href="#">Mentions Légales</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link link-light" href="#">Contactez-Nous</a>
-                </li>                
+                </li>
             </ul>
         </div>
     </header>
-    
+
 
     <main>
-        <div class="container-xl p-2">
+        <div class="container-xl p-5">
             <form action="" method="post" name="Contactez-Nous">
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col p-4">
+                        <label for="exampleFormControlInput1" class="form-label">First name</label>
                         <input type="text" class="form-control" placeholder="First name" aria-label="First name">
                     </div>
-                    <div class="col">
+                    <div class="col p-4">
+                        <label for="exampleFormControlInput1" class="form-label">Last name</label>
                         <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                     </div>
                 </div>
 
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email</label>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
                 </div>
 
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                    <label for="floatingTextarea">Objet</label>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Object</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
                 </div>
 
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Message</label>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                <div class=" p-3>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
                 </div>
 
             </form>
