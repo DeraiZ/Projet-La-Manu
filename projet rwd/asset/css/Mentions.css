@@ -18,4 +18,9 @@ body{
 
 .container-xl{
     background-color: #E4BB7E;
+    color: white;
+}
+
+footer{
+    background-color: #905045;
 }
