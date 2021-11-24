@@ -1,0 +1,17 @@
+header{
+    background-color: #905045;
+}
+.nav_bar{
+    background-color: #A06346;
+}
+body{
+    background-color: #D79E66;
+}
+.search_bar{
+    text-align: center;
+    padding: 1%;
+}
+.container-xl{
+    background-color: #E4BB7E;
+    padding: 1vw;
+}
