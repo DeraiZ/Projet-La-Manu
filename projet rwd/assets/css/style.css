@@ -7,11 +7,18 @@ header{
 body{
     background-color: #D79E66;
 }
-.search_bar{
-    text-align: center;
-    padding: 1%;
-}
-.container-xl{
+.container{
     background-color: #E4BB7E;
-    padding: 1vw;
 }
+
+.container1{
+    background-color: #4E4C48;
+    color: white;
+}
+footer{
+    background-color: #905045;
+}
+.input-group-btn{
+    background-color: white;
+}
+
