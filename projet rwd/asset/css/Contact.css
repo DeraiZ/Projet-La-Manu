@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
 div.first_container{
     background-color: #905045;
 }
