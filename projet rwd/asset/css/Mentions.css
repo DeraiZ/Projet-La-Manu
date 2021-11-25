@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.first_container{
+    background-color: #905045;
+}
+
+div.nav_bar{
+    background-color: #A06346;
+}
+
+body{
+    background-color: #D79E66;
+}
+
+.container-xl{
+    background-color: #E4BB7E;
+    color: white;
+}
+
+footer{
+    background-color: #905045;
+}
