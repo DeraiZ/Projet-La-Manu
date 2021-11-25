@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header div.first_container, footer{
+    background-color: #905045;
+}
+
+main h3{
+    font-size: 45px;
+}
+
+header div.nav_bar{
+    background-color: #A06346;
+}
+
+body{
+    background-color: #D79E66;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    grid-column: 1/7;
+    grid-row: 1/2;
+}
+
+div.color{ 
+    background-color:  #E4BB7E;
+}
+
+header div.nav_bar li:hover{
+    font-size: 25px
+}
